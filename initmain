@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+killall waybar
+waybar -c ~/.config/waybar/main/config.jsonc -s ~/.config/waybar/main/style.css
